@@ -1,0 +1,95 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//logbuch//veranstaltungen//DE
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Veranstaltungen 2027
+BEGIN:VEVENT
+UID:44797eee2772cef9@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20271004
+SUMMARY:Landesgartenschau Bad Windsheim
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+LOCATION:Bad Windsheim
+URL:https://www.bad-windsheim2027.de/
+DESCRIPTION:https://www.bad-windsheim2027.de/
+END:VEVENT
+BEGIN:VEVENT
+UID:6c4c46141a13864c@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:Oldtimertreffen Hartmannsdorf
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+LOCATION:Hartmannsdorf bei Chemnitz
+DESCRIPTION:Aus der Regel berechnet – noch nicht offiziell bestätigt.\ni
+ mmer am 1. Mai\nGewerbegebiet Burgstädter Straße\, 10–17 Uhr (Stand 20
+ 24).
+END:VEVENT
+BEGIN:VEVENT
+UID:a548a9697be5f068@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270514
+DTEND;VALUE=DATE:20270518
+SUMMARY:Trucker & Country Festival Geiselwind
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+LOCATION:Geiselwind\, Autohof Strohofer
+DESCRIPTION:Pfingstwochenende (Fr–Mo)\nhttps://www.regioactive.de/fest/tr
+ ucker-country-festival-14-17-mai-2027-geiselwind-autohof-strohofer-2027-05
+ -14-HG9BGT1m06
+END:VEVENT
+BEGIN:VEVENT
+UID:56241f3014263733@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:Deutscher Mühlentag
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+LOCATION:bundesweit
+DESCRIPTION:Aus der Regel berechnet – noch nicht offiziell bestätigt.\nP
+ fingstmontag
+END:VEVENT
+BEGIN:VEVENT
+UID:20d80a0cc66ec38f@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270628
+SUMMARY:Architektouren (Bayerische Architektenkammer)
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+LOCATION:ganz Bayern
+URL:https://www.byak.de/architektouren
+DESCRIPTION:Aus der Regel berechnet – noch nicht offiziell bestätigt.\nl
+ etztes Juni-Wochenende
+END:VEVENT
+BEGIN:VEVENT
+UID:ec16ba3553ae523e@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+SUMMARY:Tag des offenen Denkmals
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+LOCATION:bundesweit
+URL:https://www.tag-des-offenen-denkmals.de/
+DESCRIPTION:Aus der Regel berechnet – noch nicht offiziell bestätigt.\n2
+ . Sonntag im September
+END:VEVENT
+BEGIN:VEVENT
+UID:4095bc82928cc9f2@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20271003
+DTEND;VALUE=DATE:20271004
+SUMMARY:Türöffner-Tag der Sendung mit der Maus
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+LOCATION:bundesweit
+URL:https://www.wdrmaus.de/extras/tueroeffnertag/
+DESCRIPTION:Aus der Regel berechnet – noch nicht offiziell bestätigt.\ni
+ mmer am 3. Oktober
+END:VEVENT
+END:VCALENDAR

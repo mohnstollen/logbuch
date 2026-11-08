@@ -1,0 +1,378 @@
+# Wiederkehrende Veranstaltungen
+#
+# Aufbau eines Eintrags:
+#   name        Name der Veranstaltung
+#   ort         Ort
+#   link        allgemeine Seite des Veranstalters (nicht die eines bestimmten Jahres)
+#   monat       üblicher Monat (zum Sortieren)
+#   rhythmus    jährlich | gerade Jahre | ungerade Jahre | einmalig | unklar
+#   regel       feste Regel, nach der sich das Datum berechnen lässt (falls es eine gibt)
+#   ungefähr    grobe Lage, wenn es keine feste Regel gibt
+#   pruefen_ab  ab welchem Monat man nach dem neuen Termin schauen sollte
+#   notiz       offene Fragen, Hinweise
+#   termine     pro Jahr:
+#                 von / bis   Datum (JJJJ-MM-TT)
+#                 status      bestätigt  = vom Veranstalter veröffentlicht
+#                             berechnet  = aus der Regel abgeleitet, noch nicht offiziell
+#                             geschätzt  = nur grob aus den Vorjahren abgeleitet
+#                             offen      = noch nichts bekannt
+#                             entfällt   = findet in diesem Jahr nicht statt
+#                 quelle      woher die Angabe stammt
+#
+# Aus dieser Datei erzeugt kalender.py die Kalenderdateien (.ics).
+
+# ─────────────────────────── Ganzjährig / mehrmonatig ───────────────────────────
+
+- name: Landesgartenschau Bad Windsheim
+  ort: Bad Windsheim
+  link: https://www.bad-windsheim2027.de/
+  monat: April
+  rhythmus: einmalig
+  termine:
+    2027: { von: 2027-04-29, bis: 2027-10-03, status: bestätigt, quelle: https://www.bad-windsheim2027.de/ }
+
+# ─────────────────────────── März ───────────────────────────
+
+- name: Tag der Archive
+  ort: bundesweit
+  link: https://www.tagderarchive.de/
+  monat: März
+  rhythmus: gerade Jahre
+  ungefähr: Wochenende in der ersten Märzhälfte
+  pruefen_ab: Dezember
+  notiz: Interaktive Karte der teilnehmenden Archive auf vda.archiv.net. Zuletzt 7./8. März 2026.
+  termine:
+    2027: { status: entfällt, quelle: findet nur in geraden Jahren statt }
+
+# ─────────────────────────── Mai ───────────────────────────
+
+- name: Oldtimertreffen Hartmannsdorf
+  ort: Hartmannsdorf bei Chemnitz
+  monat: Mai
+  rhythmus: jährlich
+  regel: immer am 1. Mai
+  notiz: Gewerbegebiet Burgstädter Straße, 10–17 Uhr (Stand 2024).
+  termine:
+    2027: { von: 2027-05-01, status: berechnet }
+
+- name: IFA-Oldtimertreffen Werdau
+  ort: Werdau
+  monat: Mai
+  rhythmus: unklar
+  pruefen_ab: Februar
+  notiz: Zukunft ungewiss – Stadt und Veranstalter haben angekündigt, dass das Treffen nicht dauerhaft weiterlaufen kann. 2025 an neuem Standort.
+  termine:
+    2027: { status: offen }
+
+- name: Trucker & Country Festival Geiselwind
+  ort: Geiselwind, Autohof Strohofer
+  monat: Mai
+  rhythmus: jährlich
+  regel: Pfingstwochenende (Fr–Mo)
+  termine:
+    2027: { von: 2027-05-14, bis: 2027-05-17, status: bestätigt, quelle: https://www.regioactive.de/fest/trucker-country-festival-14-17-mai-2027-geiselwind-autohof-strohofer-2027-05-14-HG9BGT1m06 }
+
+- name: Deutscher Mühlentag
+  ort: bundesweit
+  monat: Mai
+  rhythmus: jährlich
+  regel: Pfingstmontag
+  termine:
+    2027: { von: 2027-05-17, status: berechnet }
+
+- name: Internationaler Museumstag
+  ort: bundesweit
+  link: https://www.museumstag.de/
+  monat: Mai
+  rhythmus: jährlich
+  ungefähr: Sonntag um den 18. Mai
+  pruefen_ab: Januar
+  notiz: 2027 fällt der 16. Mai auf Pfingstsonntag – Termin daher abwarten (16. oder 23. Mai?).
+  termine:
+    2027: { status: offen }
+
+# ─────────────────────────── Juni ───────────────────────────
+
+- name: Internationaler Comic-Salon Erlangen
+  ort: Erlangen
+  link: https://www.comic-salon.de/
+  monat: Juni
+  rhythmus: gerade Jahre
+  notiz: Stand in deiner Liste unter Mai, findet aber im Juni statt.
+  termine:
+    2027: { status: entfällt, quelle: findet nur in geraden Jahren statt }
+    2028: { von: 2028-06-15, bis: 2028-06-18, status: bestätigt, quelle: https://erlangen.de/en/aktuelles/internationaler-comic-salon-erlangen-2026 }
+
+- name: Škoda-Treffen Pobershau
+  ort: Pobershau (Erzgebirge), am Katzenstein
+  monat: Juni
+  rhythmus: jährlich
+  ungefähr: Anfang Juni
+  pruefen_ab: März
+  termine:
+    2027: { status: geschätzt }
+
+- name: Framo- & Barkas-Treffen
+  ort: Frankenberg/Sachsen
+  link: https://kultur-frankenberg.de/framo-barkas-treffen/
+  monat: Juni
+  rhythmus: jährlich
+  ungefähr: Samstag beim Stadtfest Frankenberg, Mitte Juni
+  pruefen_ab: Februar
+  notiz: 2026 Stadtfest 12.–14. Juni.
+  termine:
+    2027: { status: geschätzt }
+
+- name: Betonliebe – Streetart-Festival Langwasser
+  ort: Nürnberg-Langwasser, Gemeinschaftshaus
+  link: https://www.nuernberg.de/internet/kuf_kultur/streetart_festival_betonliebe.html
+  monat: Juni
+  rhythmus: jährlich
+  ungefähr: Samstag Ende Juni
+  pruefen_ab: April
+  notiz: Stand in deiner Liste unter Mai, war 2026 am 27. Juni. Line-up kommt meist im April.
+  termine:
+    2027: { status: geschätzt }
+
+- name: Architektouren (Bayerische Architektenkammer)
+  ort: ganz Bayern
+  link: https://www.byak.de/architektouren
+  monat: Juni
+  rhythmus: jährlich
+  regel: letztes Juni-Wochenende
+  termine:
+    2027: { von: 2027-06-26, bis: 2027-06-27, status: berechnet }
+
+- name: Tag der offenen Gartentür
+  ort: Bayern
+  monat: Juni
+  rhythmus: jährlich
+  ungefähr: bayernweit meist letzter Sonntag im Juni
+  pruefen_ab: April
+  notiz: Einzelne Landkreise weichen ab (Erlangen-Höchstadt 2026 schon am 14. Juni). 2027 vermutlich am selben Wochenende wie die Architektouren.
+  termine:
+    2027: { von: 2027-06-27, status: geschätzt }
+
+- name: Oldtimertreffen Obermichelbach
+  ort: Obermichelbach
+  monat: Juni
+  rhythmus: jährlich
+  pruefen_ab: März
+  notiz: Online nichts gefunden – Gemeindeblatt / Aushang prüfen.
+  termine:
+    2027: { status: offen }
+
+- name: Oldtimertreffen Langenzenn
+  ort: Langenzenn
+  monat: Juni
+  rhythmus: jährlich
+  pruefen_ab: März
+  notiz: Zeitgleich mit Obermichelbach? Online nichts gefunden.
+  termine:
+    2027: { status: offen }
+
+- name: Oldtimertreffen Puschendorf
+  ort: Puschendorf
+  monat: Juni
+  rhythmus: jährlich
+  pruefen_ab: März
+  notiz: Online nichts gefunden.
+  termine:
+    2027: { status: offen }
+
+- name: Old- und Youngtimertreffen Cadolzburg
+  ort: Cadolzburg
+  monat: Juli
+  rhythmus: jährlich
+  pruefen_ab: April
+  notiz: Stand in deiner Liste unter Juni; eine Übersicht der Autozeitung nennt für 2026 den 26. Juli (unsicher).
+  termine:
+    2027: { status: offen }
+
+- name: PIKO Tag der offenen Tür
+  ort: Sonneberg
+  link: https://www.piko-shop.de/
+  monat: Juni
+  rhythmus: gerade Jahre
+  notiz: Laut PIKO alle 2 Jahre, zuletzt 20. Juni 2026.
+  termine:
+    2027: { status: entfällt, quelle: findet nur alle 2 Jahre statt }
+
+- name: Lokbahnhof Sonneberg
+  ort: Sonneberg
+  monat: Juni
+  rhythmus: unklar
+  pruefen_ab: März
+  notiz: Was genau – Tag der offenen Tür, Fest? Online nichts gefunden.
+  termine:
+    2027: { status: offen }
+
+- name: Sternwarte Sonneberg
+  ort: Sonneberg
+  monat: Juni
+  rhythmus: unklar
+  pruefen_ab: März
+  notiz: Was genau – Tag der offenen Tür? Online nichts gefunden.
+  termine:
+    2027: { status: offen }
+
+# ─────────────────────────── Juli ───────────────────────────
+
+- name: Bergmannsfest Lehesten
+  ort: Lehesten (Thüringer Schiefergebirge)
+  link: https://schiefer-denkmal-lehesten.de/
+  monat: Juli
+  rhythmus: jährlich
+  ungefähr: erstes Juli-Wochenende (Fr–So)
+  pruefen_ab: April
+  notiz: 2026 vom 3. bis 5. Juli.
+  termine:
+    2027: { von: 2027-07-02, bis: 2027-07-04, status: geschätzt }
+
+- name: Herpa Tag der offenen Tür
+  ort: Dietenhofen
+  monat: Juli
+  rhythmus: unklar
+  pruefen_ab: März
+  notiz: 2025 am 5. Juli; 2026 nichts gefunden – evtl. nicht jedes Jahr. Infos über Herpa-Newsletter.
+  termine:
+    2027: { status: offen }
+
+- name: Simson-Treffen Suhl (STS-Festival)
+  ort: Suhl
+  link: https://www.sts-festival.de/
+  monat: Juli
+  rhythmus: jährlich
+  pruefen_ab: Januar
+  termine:
+    2027: { status: offen }
+
+- name: Trabbi-Treffen Sonneberg
+  ort: Sonneberg
+  monat: Juli
+  rhythmus: jährlich
+  pruefen_ab: März
+  notiz: Online nichts gefunden – Veranstalter/Verein ergänzen.
+  termine:
+    2027: { status: offen }
+
+# ─────────────────────────── August ───────────────────────────
+
+- name: Heizhausfest Chemnitz
+  ort: Chemnitz-Hilbersdorf, Schauplatz Eisenbahn
+  link: https://www.chemnitz.de/en/culture/museums/museums_facilities/showplace_railway_chemnitz-hilbersdorf
+  monat: August
+  rhythmus: jährlich
+  ungefähr: ein Wochenende im August (Fr–So)
+  pruefen_ab: Februar
+  notiz: 2026 vom 21. bis 23. August.
+  termine:
+    2027: { status: geschätzt }
+
+# ─────────────────────────── September ───────────────────────────
+
+- name: Meininger Dampfloktage
+  ort: Meiningen, Dampflokwerk
+  monat: September
+  rhythmus: jährlich
+  ungefähr: erstes September-Wochenende (Sa/So)
+  pruefen_ab: April
+  notiz: 2025 am 6./7., 2026 am 5./6. September.
+  termine:
+    2027: { von: 2027-09-04, bis: 2027-09-05, status: geschätzt }
+
+- name: Oldtimerfreunde Zenngrund – Treffen Wilhermsdorf
+  ort: Wilhermsdorf
+  link: https://www.oldtimerfreunde-zenngrund.de/page-1
+  monat: September
+  rhythmus: jährlich
+  pruefen_ab: April
+  notiz: Stand in deiner Liste unter Juni mit „11.–13.09“ – das passt zu 2026 (Fr–So).
+  termine:
+    2026: { von: 2026-09-11, bis: 2026-09-13, status: bestätigt, quelle: deine Liste }
+    2027: { status: offen }
+
+- name: Tag des offenen Denkmals
+  ort: bundesweit
+  link: https://www.tag-des-offenen-denkmals.de/
+  monat: September
+  rhythmus: jährlich
+  regel: 2. Sonntag im September
+  termine:
+    2027: { von: 2027-09-12, status: berechnet }
+
+- name: Tag der Schiene
+  ort: bundesweit
+  link: https://www.tag-der-schiene.de/
+  monat: September
+  rhythmus: jährlich
+  ungefähr: drittes September-Wochenende (Fr–So)
+  pruefen_ab: Mai
+  notiz: 2024 20.–22.09., 2026 18.–20.09.
+  termine:
+    2027: { von: 2027-09-17, bis: 2027-09-19, status: geschätzt }
+
+- name: Sohlander Oldtimertreffen
+  ort: Sohland an der Spree, Schützenplatz
+  monat: September
+  rhythmus: jährlich
+  ungefähr: Wochenende Mitte/Ende September (Fr–So)
+  pruefen_ab: April
+  notiz: 2026 vom 18. bis 20. September (22. Treffen).
+  termine:
+    2027: { status: geschätzt }
+
+- name: Oldtimer- und Teilemarkt Suhl
+  ort: Suhl, Flugplatz Goldlauter
+  link: https://www.oldtimer-teilemaerkte.de/suhl/
+  monat: September
+  rhythmus: jährlich
+  ungefähr: letzter Sonntag im September
+  pruefen_ab: April
+  notiz: 2025 am 28.09., 2026 am 27.09.
+  termine:
+    2027: { von: 2027-09-26, status: geschätzt }
+
+# ─────────────────────────── Oktober ───────────────────────────
+
+- name: Türöffner-Tag der Sendung mit der Maus
+  ort: bundesweit
+  link: https://www.wdrmaus.de/extras/tueroeffnertag/
+  monat: Oktober
+  rhythmus: jährlich
+  regel: immer am 3. Oktober
+  termine:
+    2027: { von: 2027-10-03, status: berechnet }
+
+- name: Tage der offenen Tür der Stadt Nürnberg
+  ort: Nürnberg
+  link: https://www.nuernberg.de/internet/stadtportal/tag_der_offenen_tuer.html
+  monat: Oktober
+  rhythmus: gerade Jahre
+  notiz: Normalerweise alle 2 Jahre im Oktober. 2026 wegen der Haushaltslage abgesagt.
+  termine:
+    2027: { status: entfällt, quelle: findet nur alle 2 Jahre statt }
+
+- name: Lange Nacht der Wissenschaften
+  ort: Nürnberg / Fürth / Erlangen
+  link: https://www.nacht-der-wissenschaften.de/
+  monat: Oktober
+  rhythmus: ungerade Jahre
+  ungefähr: ein Samstag im Oktober
+  pruefen_ab: Mai
+  notiz: 2023 am 21.10., 2025 am 25.10.
+  termine:
+    2027: { status: geschätzt }
+
+# ─────────────────────────── November ───────────────────────────
+
+- name: Retro Classics Bavaria
+  ort: Nürnberg, Messezentrum
+  link: https://www.retro-classics-bavaria.de/de/
+  monat: November
+  rhythmus: jährlich
+  ungefähr: Anfang November (Fr–So), parallel zur Consumenta
+  pruefen_ab: März
+  notiz: 2026 vom 6. bis 8. November.
+  termine:
+    2027: { status: geschätzt }

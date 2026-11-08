@@ -1,0 +1,340 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//logbuch//veranstaltungen//DE
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Veranstaltungen 2027 – prüfen
+BEGIN:VEVENT
+UID:041c49ed53774aee@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:Termin prüfen: IFA-Oldtimertreffen Werdau 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DESCRIPTION:Zukunft ungewiss – Stadt und Veranstalter haben angekündigt\
+ , dass das Treffen nicht dauerhaft weiterlaufen kann. 2025 an neuem Stando
+ rt.
+END:VEVENT
+BEGIN:VEVENT
+UID:1d2877fef66bba0a@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Termin prüfen: Internationaler Museumstag 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.museumstag.de/
+DESCRIPTION:Sonntag um den 18. Mai\n2027 fällt der 16. Mai auf Pfingstsonn
+ tag – Termin daher abwarten (16. oder 23. Mai?).
+END:VEVENT
+BEGIN:VEVENT
+UID:6fc08c66d86569b2@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Termin prüfen: Škoda-Treffen Pobershau 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DESCRIPTION:Anfang Juni
+END:VEVENT
+BEGIN:VEVENT
+UID:2532a5314b0f5df5@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:Termin prüfen: Framo- & Barkas-Treffen 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://kultur-frankenberg.de/framo-barkas-treffen/
+DESCRIPTION:Samstag beim Stadtfest Frankenberg\, Mitte Juni\n2026 Stadtfest
+  12.–14. Juni.
+END:VEVENT
+BEGIN:VEVENT
+UID:186d598cbf801464@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Termin prüfen: Betonliebe – Streetart-Festival Langwasser 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nuernberg.de/internet/kuf_kultur/streetart_festival_betonli
+ ebe.html
+DESCRIPTION:Samstag Ende Juni\nStand in deiner Liste unter Mai\, war 2026 a
+ m 27. Juni. Line-up kommt meist im April.
+END:VEVENT
+BEGIN:VEVENT
+UID:122a6dbaefaf1bbb@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Termin prüfen: Tag der offenen Gartentür 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DESCRIPTION:bayernweit meist letzter Sonntag im Juni\nEinzelne Landkreise w
+ eichen ab (Erlangen-Höchstadt 2026 schon am 14. Juni). 2027 vermutlich am
+  selben Wochenende wie die Architektouren.
+END:VEVENT
+BEGIN:VEVENT
+UID:9cf3e781327012ef@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270627
+DTEND;VALUE=DATE:20270628
+SUMMARY:Tag der offenen Gartentür (?)
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+LOCATION:Bayern
+DESCRIPTION:Geschätzter Termin – noch nicht bestätigt.\nbayernweit meis
+ t letzter Sonntag im Juni\nEinzelne Landkreise weichen ab (Erlangen-Höchs
+ tadt 2026 schon am 14. Juni). 2027 vermutlich am selben Wochenende wie die
+  Architektouren.
+END:VEVENT
+BEGIN:VEVENT
+UID:61711b3869f7e59d@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Termin prüfen: Oldtimertreffen Obermichelbach 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DESCRIPTION:Online nichts gefunden – Gemeindeblatt / Aushang prüfen.
+END:VEVENT
+BEGIN:VEVENT
+UID:5011e20ab3c5da06@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Termin prüfen: Oldtimertreffen Langenzenn 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DESCRIPTION:Zeitgleich mit Obermichelbach? Online nichts gefunden.
+END:VEVENT
+BEGIN:VEVENT
+UID:502522e005cbef25@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Termin prüfen: Oldtimertreffen Puschendorf 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DESCRIPTION:Online nichts gefunden.
+END:VEVENT
+BEGIN:VEVENT
+UID:b3e5930795a8faaa@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Termin prüfen: Old- und Youngtimertreffen Cadolzburg 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DESCRIPTION:Stand in deiner Liste unter Juni\; eine Übersicht der Autozeit
+ ung nennt für 2026 den 26. Juli (unsicher).
+END:VEVENT
+BEGIN:VEVENT
+UID:acb5b7cf0b2233b5@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Termin prüfen: Lokbahnhof Sonneberg 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DESCRIPTION:Was genau – Tag der offenen Tür\, Fest? Online nichts gefund
+ en.
+END:VEVENT
+BEGIN:VEVENT
+UID:92e0011216854a36@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Termin prüfen: Sternwarte Sonneberg 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DESCRIPTION:Was genau – Tag der offenen Tür? Online nichts gefunden.
+END:VEVENT
+BEGIN:VEVENT
+UID:fbc5a7ec3d9d965e@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Termin prüfen: Bergmannsfest Lehesten 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://schiefer-denkmal-lehesten.de/
+DESCRIPTION:erstes Juli-Wochenende (Fr–So)\n2026 vom 3. bis 5. Juli.
+END:VEVENT
+BEGIN:VEVENT
+UID:909f874090860fbc@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270705
+SUMMARY:Bergmannsfest Lehesten (?)
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+LOCATION:Lehesten (Thüringer Schiefergebirge)
+URL:https://schiefer-denkmal-lehesten.de/
+DESCRIPTION:Geschätzter Termin – noch nicht bestätigt.\nerstes Juli-Woc
+ henende (Fr–So)\n2026 vom 3. bis 5. Juli.
+END:VEVENT
+BEGIN:VEVENT
+UID:81db8fe36959fd26@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Termin prüfen: Herpa Tag der offenen Tür 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DESCRIPTION:2025 am 5. Juli\; 2026 nichts gefunden – evtl. nicht jedes Ja
+ hr. Infos über Herpa-Newsletter.
+END:VEVENT
+BEGIN:VEVENT
+UID:bafe6e28cba81fce@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Termin prüfen: Simson-Treffen Suhl (STS-Festival) 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.sts-festival.de/
+END:VEVENT
+BEGIN:VEVENT
+UID:7bd8fbd344bc1ec8@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Termin prüfen: Trabbi-Treffen Sonneberg 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DESCRIPTION:Online nichts gefunden – Veranstalter/Verein ergänzen.
+END:VEVENT
+BEGIN:VEVENT
+UID:1bed2d2303cb97ab@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:Termin prüfen: Heizhausfest Chemnitz 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.chemnitz.de/en/culture/museums/museums_facilities/showplace
+ _railway_chemnitz-hilbersdorf
+DESCRIPTION:ein Wochenende im August (Fr–So)\n2026 vom 21. bis 23. August
+ .
+END:VEVENT
+BEGIN:VEVENT
+UID:7cd082285030bd07@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Termin prüfen: Meininger Dampfloktage 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DESCRIPTION:erstes September-Wochenende (Sa/So)\n2025 am 6./7.\, 2026 am 5.
+ /6. September.
+END:VEVENT
+BEGIN:VEVENT
+UID:29c738a684577a42@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270906
+SUMMARY:Meininger Dampfloktage (?)
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+LOCATION:Meiningen\, Dampflokwerk
+DESCRIPTION:Geschätzter Termin – noch nicht bestätigt.\nerstes Septembe
+ r-Wochenende (Sa/So)\n2025 am 6./7.\, 2026 am 5./6. September.
+END:VEVENT
+BEGIN:VEVENT
+UID:c7eee63f0ed62690@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Termin prüfen: Oldtimerfreunde Zenngrund – Treffen Wilhermsdorf 
+ 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.oldtimerfreunde-zenngrund.de/page-1
+DESCRIPTION:Stand in deiner Liste unter Juni mit „11.–13.09“ – das 
+ passt zu 2026 (Fr–So).
+END:VEVENT
+BEGIN:VEVENT
+UID:c789e0688a42671f@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:Termin prüfen: Tag der Schiene 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.tag-der-schiene.de/
+DESCRIPTION:drittes September-Wochenende (Fr–So)\n2024 20.–22.09.\, 202
+ 6 18.–20.09.
+END:VEVENT
+BEGIN:VEVENT
+UID:0f1d2421437a3a6e@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270917
+DTEND;VALUE=DATE:20270920
+SUMMARY:Tag der Schiene (?)
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+LOCATION:bundesweit
+URL:https://www.tag-der-schiene.de/
+DESCRIPTION:Geschätzter Termin – noch nicht bestätigt.\ndrittes Septemb
+ er-Wochenende (Fr–So)\n2024 20.–22.09.\, 2026 18.–20.09.
+END:VEVENT
+BEGIN:VEVENT
+UID:a3c15c8c6068f091@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Termin prüfen: Sohlander Oldtimertreffen 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DESCRIPTION:Wochenende Mitte/Ende September (Fr–So)\n2026 vom 18. bis 20.
+  September (22. Treffen).
+END:VEVENT
+BEGIN:VEVENT
+UID:c15bc705b491581c@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Termin prüfen: Oldtimer- und Teilemarkt Suhl 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.oldtimer-teilemaerkte.de/suhl/
+DESCRIPTION:letzter Sonntag im September\n2025 am 28.09.\, 2026 am 27.09.
+END:VEVENT
+BEGIN:VEVENT
+UID:149a2646b12a4008@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+SUMMARY:Oldtimer- und Teilemarkt Suhl (?)
+TRANSP:TRANSPARENT
+STATUS:TENTATIVE
+LOCATION:Suhl\, Flugplatz Goldlauter
+URL:https://www.oldtimer-teilemaerkte.de/suhl/
+DESCRIPTION:Geschätzter Termin – noch nicht bestätigt.\nletzter Sonntag
+  im September\n2025 am 28.09.\, 2026 am 27.09.
+END:VEVENT
+BEGIN:VEVENT
+UID:2f7ebfc974cb3afd@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:Termin prüfen: Lange Nacht der Wissenschaften 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nacht-der-wissenschaften.de/
+DESCRIPTION:ein Samstag im Oktober\n2023 am 21.10.\, 2025 am 25.10.
+END:VEVENT
+BEGIN:VEVENT
+UID:1f5865e6629f5499@logbuch-veranstaltungen
+DTSTAMP:20261108T212624Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Termin prüfen: Retro Classics Bavaria 2027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.retro-classics-bavaria.de/de/
+DESCRIPTION:Anfang November (Fr–So)\, parallel zur Consumenta\n2026 vom 6
+ . bis 8. November.
+END:VEVENT
+END:VCALENDAR
